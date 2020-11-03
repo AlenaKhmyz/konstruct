@@ -1,0 +1,193 @@
+/*для вертикального положения*/
+@media (max-width:768px){
+    .wrap { 
+        display: flex;
+        flex-direction: column;
+    }
+
+    p {
+        font-size: 23px;
+    }
+/* header
+ =================================================== */
+    .container {
+        width: 100%;
+    }
+
+    .header__heading {
+        text-align: center;
+    }
+
+    .header__title {
+        text-align: center;
+    }
+
+    .header__sub-title {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .humburger {
+        display: block;
+        position: fixed;
+    }
+    
+    /* navigation
+ =================================================== */
+
+    .navigation__links {
+        display: none;
+    }
+
+    .navigation__link {
+        color: #00A4E5
+    }
+
+    /* about
+ =================================================== */
+    .about__title {
+        display: flex;
+        margin-top: 0;
+        justify-content: center;
+
+    }
+
+    .about__story {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .about__text {
+        width: 90%;
+        text-align: center;
+    }
+
+    .about__pictures {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10%;
+        margin-left: 15%;
+    }
+
+    .about__card {
+        width: calc(180px + 0.7vw);
+        height: calc(200px + 0.7vw);
+        display: block;
+        margin: 1.2em;
+    }
+    
+    .about__caption {
+        margin-bottom: 20px;
+    }
+
+    .manage {
+        padding: 15px 0px 131px 70px;
+        width: 10px;
+    }
+
+    /* main
+ =================================================== */
+
+    .main__capabilities {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main__title {
+        width: 80%;
+        margin-left: 35%;
+        text-align: center;
+    }
+
+    .main__our-capabilities:after {
+        right: 5em;
+    }
+
+    .main__text {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: 5%;
+        font-size: medium;
+    }
+
+    .main__service-button {
+        padding: 11px 29px;
+        margin-left: 5%;
+    }
+
+    main {
+        display: block;
+    }
+
+    .main__card {
+        margin: 10%;
+        padding: 10%;
+        border: 1px solid #808080;
+    }
+
+    /* newsletter
+ =================================================== */
+
+    .newsletter__content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
+
+    .newsletter__text {
+        padding-bottom: 7%;
+    }
+
+    input[type="submit"] {
+        margin-top: 5%;
+        margin-left: 15%;
+    }
+
+    /* footer
+ =================================================== */
+
+    .footer__content {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .footer__company__about {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__links-block {
+        flex-direction: row;
+        margin-top: 1.2em;
+    }
+
+    .contacts, .social-icons {
+        margin-left: 3.4em;
+    }
+
+}
+/*для горизонтального положения*/
+@media (max-width:768px)and(min-height:768px) {
+    .wrap { 
+        display: flex;
+        flex-direction: column;
+    }
+
+    p {
+        font-size: 23px;
+    }
+
+    .container {
+        width: 89px;
+    }
+}
